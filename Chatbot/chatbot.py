@@ -7,7 +7,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
 
-OPENAI_API_KEY = "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"  # OpenAI key
+OPENAI_API_KEY = ""  # OpenAI key
 
 ## Upload PDF files
 st.header("My First Chatbot")
