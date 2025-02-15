@@ -71,8 +71,8 @@ if file is not None:
             openai_api_key = OPENAI_API_KEY,
             temperature = 0,   ## It means we are telling to our LLM, to not be not random. we are asking it to keep response very specific to the question. If the value will be higher like 0.4,0.8 or 2. you are asking the llm is okay for you to be random. And in that case, the LLM can go off the hook and start giving you lengthy answers. Things that are not related to what you actually need.
             max_tokens=1000,  ## It defines the limit of the response.
-            # model_name = "gpt-3.5-turbo"  # Model name
-            model_name = "GPT-2"
+            # model_name = ""  # Model name
+            model_name = ""
         )
 
     # output results
